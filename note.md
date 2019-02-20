@@ -10,4 +10,5 @@ We add a list of todos:
 - second
 - third
 
-##This is my new section
+# This is a new section with a picture
+![UC3M_logo](https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobkey=id&blobtable=MungoBlobs&blobwhere=1371552353583&ssbinary=true)
