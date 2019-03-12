@@ -16,9 +16,7 @@ library(mapdata)
 library(ggthemes)
 library(viridisLite)
 
-
-
-
+#Data Frames
 City = c("Vancouver","Portland","San Francisco","Seattle","Los Angeles",
          "San Diego","Las Vegas","Phoenix","Albuquerque","Denver",
          "San Antonio","Dallas","Houston","Kansas City","Minneapolis","Saint Louis",
@@ -69,7 +67,6 @@ ui <- fluidPage(
                       )
              ),
              
-             
              tabPanel(title="7 Day Forecast",icon=icon("fas fa-chart-line"),
                       titlePanel("Forecast"),
                       
@@ -94,8 +91,7 @@ ui <- fluidPage(
                         )
                       )
              ),
-             
-             
+                      
              tabPanel(title="Yearly Forecast",icon=icon("fas fa-chart-line"),
                       titlePanel("Forecast"),
    
